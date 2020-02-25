@@ -1,0 +1,113 @@
+@import url("https://rsms.me/inter/inter-ui.css");
+
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter UI", sans-serif;
+  text-align: center;
+  color: white;
+}
+
+.titan-background {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  /* Make the rubber band scroll not show empty white space */
+  top: -10%;
+  height: 120%;
+  min-height: 120vh;
+  margin-bottom: -20%;
+}
+
+@keyframes panning-stars {
+  from {
+    transform: translate(-20%, 0%);
+  }
+  to {
+    transform: translate(-80%, -40%);
+  }
+}
+
+.marvellous-container {
+  position: relative;
+  z-index: 2;
+  padding: 104px 0 24px 0;
+  width: 95%;
+  max-width: 600px;
+  margin: auto;
+}
+
+h1 {
+  display: block;
+  font-size: 80px;
+  margin: 0 0 24px 0;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 13vw;
+  }
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 20px;
+  color: #000000;
+}
+
+h3 {
+  font-weight: 300;
+  font-size: 24px;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.title-marvel {
+  font-weight: bolder;
+  color: #ffffff;
+  letter-spacing: -6.7px;
+  text-transform: uppercase;
+  padding: 0 16px;
+  background: #00C19F;
+}
+
+.title-studios {
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  color: #00C19F;
+  letter-spacing: -4.5px;
+  text-transform: uppercase;
+  padding: 0 16px;
+  border-color: #00C19F;
+  border-top: 8px solid;
+  border-bottom: 8px solid;
+  line-height: 1;
+}
+
+code {
+  display: in-line;
+  padding: inherit;
+}
+
+.header {
+  margin-bottom: 10px;
+}
+
+.installation-instructions,
+.usage-instructions {
+  margin-top: 20px;
+}
+
+.footer {
+  margin-top: 224px;
+}
+
+.footer img {
+  height: 104px;
+  width: auto;
+}

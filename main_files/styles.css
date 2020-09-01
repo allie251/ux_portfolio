@@ -9,6 +9,18 @@ body {
   color: white;
 }
 
+button {
+  background-color: #1D77FF;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  border-radius: 25px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+}
+
 .titan-background {
   position: absolute;
   width: 100%;
@@ -57,12 +69,13 @@ h2 {
 }
 
 h3 {
-  font-weight: 300;
-  font-size: 24px;
+   font-weight: 500;
+  font-size: 16px;
+  color: #000000;
 }
 
 a {
-  color: inherit;
+  color: #6633FF;
   text-decoration: underline;
 }
 
@@ -72,18 +85,18 @@ a {
   letter-spacing: -6.7px;
   text-transform: uppercase;
   padding: 0 16px;
-  background: #00C19F;
+  background: #6633FF;
 }
 
 .title-studios {
   position: relative;
   display: inline-block;
   font-weight: bold;
-  color: #00C19F;
+  color: #6633FF;
   letter-spacing: -4.5px;
   text-transform: uppercase;
   padding: 0 16px;
-  border-color: #00C19F;
+  border-color: #6633FF;
   border-top: 8px solid;
   border-bottom: 8px solid;
   line-height: 1;

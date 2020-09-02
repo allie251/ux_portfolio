@@ -1,2 +1,2 @@
 # temp_portfolio
-This is my temporary portfolio until I get my Webflow site up and running!
+Welcome to the launch pad for my ownlanding page that provides access to my PDF portfolio.

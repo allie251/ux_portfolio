@@ -9,17 +9,6 @@ body {
   color: white;
 }
 
-button {
-  background-color: #00C19F;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  border-radius: 25px;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 18px;
-}
 
 .titan-background {
   position: absolute;
@@ -123,4 +112,33 @@ code {
 .footer img {
   height: 104px;
   width: auto;
+}
+
+.btn {
+  position: relative;
+  font-size: 18px;
+  display: block;
+  margin: 30px auto;
+  padding: 0;
+  color: white;
+  overflow: hidden;
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+  transition: background-color .3s;
+}
+
+
+.btn span {
+  display: block;
+  padding: 12px 24px;
+}
+
+.btn.success {
+  background-color: #00c19f;
+}
+
+.btn.success:hover, .btn.orange:focus {
+  background-color: #13ae93;
 }
